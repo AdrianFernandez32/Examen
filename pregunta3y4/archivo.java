@@ -24,7 +24,7 @@ public class archivo {
 
     }
 
-    public static void WriteTextInFile(String Filename, String Text) throws IOException {
+    public static void WriteTextInFile(String Filename) throws IOException {
         Scanner read = new Scanner(System.in);
         File file = new File(Filename);
         FileWriter write = new FileWriter(file, false);
